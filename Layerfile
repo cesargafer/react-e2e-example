@@ -19,4 +19,5 @@ RUN BACKGROUND cd cypress && python3 -m http.server 8000
 RUN ./node_modules/.bin/cypress run
 
 # start a webserver to view test results
+
 EXPOSE WEBSITE http://localhost:8000
